@@ -24,20 +24,21 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* Hello My name is Yongjie Ba
+* I am looking for a way to show my resume 
+* and here it is:
+* Shall we?
 */
 
-/* 首先给所有元素加上过渡效果 */
+/* First add end effects to all elements */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* The white background is too monotonous, let's add some background */
 html {
   color: rgb(222,222,222); background: rgb(0,43,54);
 }
-/* 文字离边框太近了 */
+/* The text is too close to the border */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -45,13 +46,13 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 代码高亮 */
+/* Maybe we can highlight the code */
 .token.selector{ color: rgb(133,153,0); }
 .token.property{ color: rgb(187,137,0); }
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
 
-/* 加点 3D 效果呗 */
+/* Let's add some 3D effect */
 html{
   perspective: 1000px;
 }
@@ -63,7 +64,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* Next I will prepare an editor for myself */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -72,19 +73,19 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* ok! I am ready to write my resume now! */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* This resume seems to be missing something...
+ * oh right!, This is in Markdown format, I need to change it to a more HR-friendly format
+ * it is easy, Just use open source tools to translate it into HTML
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* Add some styles to the HTML */
 .resumeEditor{
   padding: 2em;
 }
@@ -115,34 +116,39 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `Yongjie Ba
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+Currently, I am studying Master of Software Engineering at the University of Melbourne in my third semester.
 
-技能
+I got my bachelor's degree with honours in Computer Science at York University in Canada.
+
+I am doing the design of posters and video editing in 2 University Clubs.
+
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* Coding 
+  Java, C, Html, JavaScript, Rodin, TLA+, MySQL, Prolog, Ada SPARK, Alloy, FSP
+* System
+  Linux, Windows
 
-工作经历
+
+University Experience
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. Team Leader, Marketing, GradChat (University of Melbourne Health Promotion Program), 2023-08 to 2024-03
+2. Product Owner, FHIR Studio Project (University of Melbourne course project), 2023-07 to 2023-11
+3. Twitter PollenBot	2022-09 to 2023-04
+4. U21 Micro-internship	2024-02 to 2024-02
 
-链接
+Links
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GradChat](https://linktr.ee/gradchat)
+* [FHIR Studio Project](https://github.com/SWEN90014-2023/FH-Budgerigar)
+* [Twitter PollenBot code](https://github.com/xzippyzachx/PolleenBot)
+* [Twitter PollenBot account](https://twitter.com/PolleenBot)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
 
 `
       }
