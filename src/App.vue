@@ -128,9 +128,9 @@ I am doing the design of posters and video editing in 2 University Clubs.
 ----
 
 * Coding 
-  Java, C, Html, JavaScript, Rodin, TLA+, MySQL, Prolog, Ada SPARK, Alloy, FSP
+  - Java, C, Html, JavaScript, Rodin, TLA+, MySQL, Prolog, Ada SPARK, Alloy, FSP
 * System
-  Linux, Windows
+  - Linux, Windows
 
 
 University Experience
